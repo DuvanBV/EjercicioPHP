@@ -1,0 +1,193 @@
+body{
+    font-family: 'BIZ UDMincho', serif;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+.logo{
+    width: 150px;
+    height: 200px;
+}
+.logotipo{
+    background-color: black;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+    color: white;   
+    font-family: 'Dancing Script', cursive;
+    border: solid 7px #00FFAB;
+    border-radius: 50%;
+    position: fixed;
+    animation: animacion 5s alternate-reverse infinite;;
+  
+}
+.logotipo h1{
+    margin-top: -10px;
+}
+.logotipo img{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.ejercicios1{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #371B58;
+}
+.ejercicios2{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4B8673;
+}
+.divisor{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #7858A6;
+    width: 700px;
+    border: solid 15px #C2DED1 ;
+    border-radius: 15%;
+}
+.divisor1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #5FD068;
+    width: 700px;
+    border: solid 15px #F5DF99 ;
+    border-radius: 15%;
+}
+.titulo{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #371B58;
+    border: solid 4px #C2DED1;
+    padding: 10px;
+    width: 600px; 
+    color: white;
+}
+.titulo1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4B8673;
+    border: solid 4px #F5DF99;
+    padding: 10px;
+    width: 600px; 
+    color: white;
+}
+.basicos{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C2DED1;
+    border: solid 2px #371B58;
+    padding: 10px;
+    width: 600px;
+}
+.basicos1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F5DF99;
+    border: solid 2px #4B8673;
+    padding: 10px;
+    width: 600px;
+}
+.circulo{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C2DED1;
+    border: solid 2px #371B58;
+    padding: 10px;
+    width: 600px;
+}
+.promedio{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C2DED1;
+    border: solid 2px #371B58;
+    padding: 10px;
+    width: 600px;
+}
+.porcentaje{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C2DED1;
+    border: solid 2px #371B58;
+    padding: 10px;
+    width: 600px;
+}
+.precios{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C2DED1;
+    border: solid 2px #371B58;
+    padding: 10px;
+    width: 600px;
+}
+.salario{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C2DED1;
+    border: solid 2px #371B58;
+    padding: 10px;
+    width: 600px;
+}
+.triangulo{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C2DED1;
+    border: solid 2px #371B58;
+    padding: 10px;
+    width: 600px;
+}
+@keyframes animacion{
+    0%{
+        transform: rotate(3deg);
+    }
+    10%{
+        transform: rotate(-3deg);
+    }
+    20%{
+        transform: rotate(3deg);
+    }
+    30%{
+        transform: rotate(-3deg);
+    }
+    40%{
+        transform: rotate(3deg);
+    }
+    50%{
+        transform: rotate(-3deg);
+    }
+    60%{
+        transform: rotate(3deg);
+    }
+    70%{
+        transform: rotate(-3deg);
+    }
+    80%{
+        transform: rotate(3deg);
+    }
+    90%{
+        transform: rotate(-3deg);
+    }
+    100%{
+        transform: rotate(3deg);
+    }
+
+
+}
